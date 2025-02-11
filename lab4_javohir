@@ -1,0 +1,323 @@
+//Problem 1
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << ("Enter a number: ");
+    cin >> n;
+    if (n < 0) {
+        cout << ("You entered a negative number");
+    }
+    else {
+        cout << ("You entered a positive number");
+    }
+    return 0;
+}
+*/
+
+//Problem 2
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << ("Enter a number: ");
+    cin >> n;
+    if (n % 2 != 0) {
+        cout << ("You entered a even number");
+    }
+    else {
+        cout << ("You entered a odd number");
+    }
+    return 0;
+}
+*/
+
+//Problem 3
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << ("Enter a number: ");
+    cin >> n;
+    int n2;
+    cout << "Enter another number: ";
+    cin >> n2;
+
+    if (n < n2) {
+        cout << ("Largest number is: ") << n2 << endl;
+    }
+    else {
+        cout << ("Largest number is: ") << n << endl;
+    }
+    return 0;
+}
+*/
+
+//Problem 4
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << ("Enter a number: ");
+    cin >> n;
+    int n2;
+    cout << "Enter another number: ";
+    cin >> n2;
+    int n3;
+    cout << "Enter another number: ";
+    cin >> n3;
+
+    if (n > n2 && n > n3) {
+        cout << ("Largest number is: ") << n << endl;
+    }
+    else if (n2 > n && n2 > n3 ) {
+        cout << ("Largest number is: ") << n2 << endl;
+    }
+    else {
+        cout << ("Largest number is: ") << n3 << endl;
+    }
+}
+*/
+
+//Problem 5
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter a year: ";
+    cin >> n;
+    if (n % 4 == 0) {
+        cout << n << " is a leap year";
+    }
+    else {
+        cout << n << " is not a leap year";
+    }
+    return 0;
+}
+*/
+
+//Problem 6
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter a speed: ";
+    cin >> n;
+    if(n < 20) {
+        cout << "too slow" << endl;
+    }
+    else if(n > 80) {
+        cout << "too fast" << endl;
+    }
+    else {
+        cout << "just right" << endl;
+    }
+    return 0;
+}
+*/
+
+//Problem 7
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter a mark: ";
+    cin >> n;
+    if (n < 50) {
+        cout << "Fail" ;
+    }
+    else {
+        cout << "Pass" ;
+    }
+    return 0;
+}
+*/
+
+//Problem 8
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << ("Enter a number: ");
+    cin >> n;
+    if (n < 0) {
+        cout << ("You entered a negative number");
+    }
+    else if (n > 0) {
+        cout << ("You entered a positive number");
+    }
+    else {
+        cout << ("You entered a zero number");
+    }
+    return 0;
+}
+*/
+
+//Problem 9
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    char c;
+    cout << "Enter a character: ";
+    cin >> c;
+    if ( c == 'g') {
+        cout << "Go!";
+    }
+    else if ( c == 'y') {
+        cout << "Get ready!";
+    }
+    else if ( c == 'r') {
+        cout << "Stop!";
+    }
+    return 0;
+}
+*/
+
+//Problem 10
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    if (n <= 100 && n >= 90) {
+        cout << "A";
+    }
+    else if (n <= 89 && n >= 80) {
+        cout << "B";
+    }
+    else if (n <= 79 && n >= 70) {
+        cout << "C";
+    }
+    else if (n <= 69 && n >= 60) {
+        cout << "D";
+    }
+    else {
+        cout << "F";
+    }
+    return 0;
+}
+*/
+
+//Problem 11
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n, n2;
+    cout << "Enter 2 number: ";
+    cin >> n >> n2;
+    if (n % n2 == 0) {
+        cout << n << " is divisible by " << n2 << endl;
+    }
+    else {
+        cout << n << " is not divisible by " << n2 << endl;
+    }
+    return 0;
+}
+*/
+
+//Problem 12
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n, n2, n3;
+    cout << "Enter 3 number: ";
+    cin >> n >> n2 >> n3;
+    if (n+n2 > n3 && n+n3 > n2 && n2+n3 > n) {
+        cout << "Th triangle is valid";
+    }
+    else {
+        cout << "Th triangle is not valid";
+    }
+    return 0;
+}
+*/
+
+//Problem 13
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    char a;
+    cin >> a;
+    if (a >=65 && a<=90) {
+        cout << "Uppercase alphabet";
+    }
+    else if (a>=97 && a<=122) {
+        cout << "Lowercase alphabet";
+    }
+    else {
+        cout << "It is not alphabet";
+    }
+}
+*/
+
+//Problem 14
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    float f;
+    cout << "Enter a weight and cost: ";
+    cin >> n >> f;
+    int n2;
+    float f2;
+    cout << "Enter another weight and cost: ";
+    cin >> n2 >> f2;
+    if (f/n > f2/n2) {
+        cout << "Package 1 has a better price";
+    }
+    else if (f/n < f2/n2) {
+        cout << "Package 2 has a better price";
+    }
+    else {
+        cout << "Two packages have the same price";
+    }
+    return 0;
+}
+*/
+
+//Problem 15
+
+/*
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter a three digit number: ";
+    cin >> n;
+    if (n/100 == n%10) {
+        cout << n << " is a palindrome";
+    }
+    else {
+        cout << n << " s not a palindrome";
+    }
+    return 0;
+}
+*/
